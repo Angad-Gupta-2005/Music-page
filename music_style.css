@@ -1,0 +1,277 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.main_div{
+    width: 1200px;
+    margin: 0px auto;
+    font-family: Roboto,sans-serif;
+    line-height: 25px;
+    letter-spacing: 1px;
+
+}
+
+
+.main_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(16, 16, 134);
+    padding: 15px 100px;
+    color: white;
+    position: sticky;
+    top: 0px;
+}
+.main_nav p {
+    font-size: 40px;
+}
+
+.navigation{
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    
+}
+
+.navigation > li{
+    padding: 10px;
+}
+
+.navigation > li:hover{
+   background-color: black;
+   border-radius: 10px;
+}
+
+.navigation > li >a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.nav_image{
+    background-image: url(music_image2.avif);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav_image{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_image > h1{
+    font-size: 50px;
+    line-height: 90px;
+}
+
+.nav_image > h4{
+    font-size: 23px;
+    line-height: 80px;
+}
+
+.icon{
+    color: white;
+}
+
+/* ------------------------------Second Section------------------------------------------ */
+
+.description{
+    background-color: blue;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-top: 80px;
+    line-height: 25px;
+    
+}
+
+.description > i{
+    font-size: 40px;
+    letter-spacing: 5px;
+    line-height: 65px;
+}
+
+.description > h3{
+    font-size: 23px;
+    line-height: 80px;
+}
+
+.description > a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: red;
+    margin: 15px 0px;
+    border-radius: 8px;
+    transition: .4s ease-in-out;
+}
+
+.description > a:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease-in-out;
+}
+ 
+
+.tab{
+    width: 700px;
+    height: 500px;
+    border-radius:30px;
+    margin: 90px -120px 10px 0px;
+    
+}
+
+.phone{
+    width: 300px;
+    height: 570px;
+    border-radius: 45px;
+    margin-top: 180px;
+   
+}
+
+.phone_img{
+    display: flex;
+   line-gap-override: 40%;
+}
+
+.collection{
+    margin: 450px 160px 20px 160px ;
+    text-align: center;
+    line-height: 25px;
+
+}
+
+.collection > h1 {
+    margin: 30px auto;
+}
+
+.collection > button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: blue;
+    margin: 30px auto;
+    color: white;
+    font-size: 18px;
+    border-style: none;
+    transition: 0.5s ease-in-out;
+}
+
+.collection > button:hover{
+    transform: scale(1.08);
+    transition: 0.5s ease-in-out;
+}
+
+.mat_book > img {
+    width: 70%;
+    margin: 40px auto;
+}
+
+/* ---------------------------------Third Section--------------------------------------------- */
+
+.third_sec{
+    background-image:linear-gradient(rgb(28, 28, 219,0.4),rgb(28, 28, 219, 0.3)), url(music_image.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 670px;
+}
+
+.third_sec{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.third_sec > p {
+    margin: 30px 100px;
+    text-align: center;
+}
+
+/* --------------------------------Fourth Section---------------------------------------------- */
+
+.gift_sec{
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    margin: 30px 60px 50px 60px;
+    padding-top: 80px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.gift_content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.gift_img {
+    width: 150%;
+}
+
+.gift_content > div > button{
+    display: flex-start;
+    padding: 10px 20px;
+    background-color: blue;
+    border-radius: 8px;
+    color: white;
+    border-style: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: 0.5s ease-in-out;
+}
+
+.gift_content > div > button:hover{
+    transform: scale(1.08);
+    transition: 0.5s ease-in-out;
+}
+
+/* ----------------------------------Footer Section--------------------------------- */
+
+.footer_sec{
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 60px;
+    color: white;
+    list-style: none;
+}
+
+.list{
+    margin: 20px auto;
+    line-height: 25px;
+}
+
+.list > li{
+    list-style: none;
+}
+
+.list > li >a{
+    text-decoration: none;
+    color: white;
+}
+
+.copy_right{
+    text-align: center;
+    padding: 10px;
+    background-color: darkblue;
+    color: white;
+    font-size: 20px;
+}
